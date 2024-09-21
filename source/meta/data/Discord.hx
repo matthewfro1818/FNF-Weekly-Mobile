@@ -1,12 +1,9 @@
 package meta.data;
 
-#if desktop
 import Sys.sleep;
 import discord_rpc.DiscordRpc;
 import meta.states.*;
-#end
 
-import discord_rpc.DiscordRpc;
 
 #if LUA_ALLOWED
 import llua.Lua;
@@ -225,4 +222,3 @@ class DiscordClient
 	}
 	#end
 }
-#end

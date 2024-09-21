@@ -74,5 +74,4 @@ class CrashReportSubstate extends FlxState {
 
 		#end
         }
-	}
 }
